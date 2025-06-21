@@ -10,6 +10,23 @@
     <script src="https://unpkg.com/framer-motion@10.16.4/dist/framer-motion.js"></script>
 </head>
 <body>
+    <!-- Floating Shapes Background -->
+    <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+        <div class="shape shape-5"></div>
+        <div class="shape shape-6"></div>
+        <div class="shape shape-7"></div>
+        <div class="shape shape-8"></div>
+        <div class="shape shape-9"></div>
+        <div class="shape shape-10"></div>
+    </div>
+    
+    <!-- Particle Animation Canvas -->
+    <canvas id="particles-canvas"></canvas>
+    
     <nav class="navbar glass">
         <div class="nav-content">
             <div class="logo"><i class="fas fa-code"></i> AK</div>
@@ -26,6 +43,10 @@
 
     <section id="home" class="hero">
         <div class="hero-content animate-on-scroll">
+            <div class="welcome-message">
+                <h1 class="welcome-text">Welcome to My Portfolio</h1>
+                <div class="welcome-subtitle">Discover my journey in technology and innovation</div>
+            </div>
             <h1>Arun Krishna S</h1>
             <h2><i class="fas fa-brain"></i> B.Tech Student in Artificial Intelligence & Data Science</h2>
             <div class="social-links">
@@ -33,10 +54,13 @@
                 <a href="https://github.com/Arunkrishna1234" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
                 <a href="mailto:arunkrishnaaiswarya108@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
             </div>
+            <a href="Arun's Imported Resume-hackerresume.pdf" class="btn btn-resume" download>
+                <i class="fas fa-download"></i> Download Resume
+            </a>
         </div>
     </section>
 
-    <section id="about" class="about glass animate-on-scroll">
+    <section id="about" class="about animate-on-scroll">
         <h2 class="section-title"><i class="fas fa-user-circle"></i> About Me</h2>
         <div class="about-content">
             <div class="about-text animate-on-scroll">
@@ -49,7 +73,7 @@
         </div>
     </section>
 
-    <section id="education" class="education glass animate-on-scroll">
+    <section id="education" class="education animate-on-scroll">
         <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Education</h2>
         <div class="timeline">
             <div class="timeline-item animate-on-scroll">
@@ -73,7 +97,7 @@
         </div>
     </section>
 
-    <section id="experience" class="experience glass animate-on-scroll">
+    <section id="experience" class="experience animate-on-scroll">
         <h2 class="section-title"><i class="fas fa-briefcase"></i> Experience</h2>
         <div class="experience-grid">
             <div class="experience-card animate-on-scroll">
@@ -97,7 +121,7 @@
         </div>
     </section>
 
-    <section id="projects" class="projects glass animate-on-scroll">
+    <section id="projects" class="projects animate-on-scroll">
         <h2 class="section-title"><i class="fas fa-project-diagram"></i> Projects</h2>
         <div class="project-grid">
             <div class="project-card animate-on-scroll">
@@ -124,7 +148,7 @@
         </div>
     </section>
 
-    <section id="skills" class="skills glass animate-on-scroll">
+    <section id="skills" class="skills animate-on-scroll">
         <h2 class="section-title"><i class="fas fa-tools"></i> Skills & Languages</h2>
         <div class="skills-container">
             <div class="skills-section animate-on-scroll">
@@ -155,7 +179,7 @@
         </div>
     </section>
 
-    <section id="certificates" class="certificates glass animate-on-scroll">
+    <section id="certificates" class="certificates animate-on-scroll">
         <h2 class="section-title"><i class="fas fa-certificate"></i> Certificates</h2>
         <div class="certificate-grid">
             <div class="certificate-card animate-on-scroll">
@@ -177,7 +201,7 @@
         </div>
     </section>
 
-    <section id="interests" class="interests glass animate-on-scroll">
+    <section id="interests" class="interests animate-on-scroll">
         <h2 class="section-title"><i class="fas fa-heart"></i> Interests</h2>
         <div class="interests-container">
             <div class="interest-item animate-on-scroll">
@@ -195,7 +219,7 @@
         </div>
     </section>
 
-    <footer class="glass">
+    <footer>
         <p>&copy; 2024 Arun Krishna S. All rights reserved.</p>
     </footer>
 
